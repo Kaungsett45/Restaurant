@@ -9,57 +9,48 @@ const cart=document.querySelector('.cart');
 let menuItems = [
     {
         imageSrc: "pngegg.png",
-        name: "Food Item 1",
-        price: 10,
-        id: 1
+        name: "Spaghetti",
+        price: 7000,
     },
     {
         imageSrc: "Lovepik_com-401506378-spicy-hot-food.png",
-        name: "Food Item 1",
-        price: 20,
-        id: 2
+        name: "Mala Tang",
+        price: 5500,
     },
     {
         imageSrc: "pngegg (3).png",
-        name: "Food Item 1",
-        price: 30,
-        id: 3
+        name: "Instant Noodle",
+        price: 3000,
     },
     {
-        imageSrc: "pngegg.png",
-        name: "Food Item 1",
-        price: 10,
-        id: 1
+        imageSrc: "pizza.webp",
+        name: "Pizza",
+        price: 8000,
     },
     {
-        imageSrc: "Lovepik_com-401506378-spicy-hot-food.png",
-        name: "Food Item 1",
-        price: 20,
-        id: 2
+        imageSrc: "kimchi.webp",
+        name: "Kim Chi Soup",
+        price: 4500,
     },
     {
-        imageSrc: "pngegg (3).png",
-        name: "Food Item 1",
-        price: 30,
-        id: 3
+        imageSrc: "dumpling.webp",
+        name: "Dumpling",
+        price: 9000,
     },
     {
-        imageSrc: "pngegg.png",
-        name: "Food Item 1",
-        price: 10,
-        id: 1
+        imageSrc: "salad.webp",
+        name: "Salad",
+        price: 3000,
     },
     {
-        imageSrc: "Lovepik_com-401506378-spicy-hot-food.png",
-        name: "Food Item 1",
-        price: 20,
-        id: 2
+        imageSrc: "avocado.webp",
+        name: "Avocado Salad",
+        price: 7200,
     },
     {
-        imageSrc: "pngegg (3).png",
-        name: "Food Item 1",
-        price: 30,
-        id: 3
+        imageSrc: "pasta.webp",
+        name: "Prawn Pasta",
+        price: 5300,
     },
     // Add more items as needed
 ];
@@ -68,59 +59,49 @@ food.addEventListener('click', () => {
     menuItems = [
         {
             imageSrc: "pngegg.png",
-            name: "Food Item 1",
-            price: 10,
-            id: 1
+            name: "Spaghetti",
+            price: 7000,
         },
         {
             imageSrc: "Lovepik_com-401506378-spicy-hot-food.png",
-            name: "Food Item 1",
-            price: 20,
-            id: 2
+            name: "Mala Tang",
+            price: 5500,
         },
         {
             imageSrc: "pngegg (3).png",
-            name: "Food Item 1",
-            price: 30,
-            id: 3
+            name: "Instant Noodle",
+            price: 3000,
         },
         {
-            imageSrc: "pngegg.png",
-            name: "Food Item 1",
-            price: 10,
-            id: 1
+            imageSrc: "pizza.webp",
+            name: "Pizza",
+            price: 8000,
         },
         {
-            imageSrc: "Lovepik_com-401506378-spicy-hot-food.png",
-            name: "Food Item 1",
-            price: 20,
-            id: 2
+            imageSrc: "kimchi.webp",
+            name: "Kim Chi Soup",
+            price: 4500,
         },
         {
-            imageSrc: "pngegg (3).png",
-            name: "Food Item 1",
-            price: 30,
-            id: 3
+            imageSrc: "dumpling.webp",
+            name: "Dumpling",
+            price: 9000,
         },
         {
-            imageSrc: "pngegg.png",
-            name: "Food Item 1",
-            price: 10,
-            id: 1
+            imageSrc: "salad.webp",
+            name: "Salad",
+            price: 3000,
         },
         {
-            imageSrc: "Lovepik_com-401506378-spicy-hot-food.png",
-            name: "Food Item 1",
-            price: 20,
-            id: 2
+            imageSrc: "avocado.webp",
+            name: "Avocado Salad",
+            price: 7200,
         },
         {
-            imageSrc: "pngegg (3).png",
-            name: "Food Item 1",
-            price: 30,
-            id: 3
+            imageSrc: "pasta.webp",
+            name: "Prawn Pasta",
+            price: 5300,
         },
-
         // Add more items as needed
     ];
     generateMenu();
@@ -129,58 +110,49 @@ food.addEventListener('click', () => {
 snack.addEventListener('click', () => {
     menuItems = [
         {
-            imageSrc: "pngegg.png",
-            name: "Snack Item 1",
-            price: 10,
-            id: 4
+            imageSrc: "chicken.webp",
+            name: "Chicken Fries",
+            price: 7500,
         },
         {
-            imageSrc: "Lovepik_com-401506378-spicy-hot-food.png",
-            name: "Snack Item 1",
-            price: 20,
-            id: 5
+            imageSrc: "beef.webp",
+            name: "Beef Steak",
+            price: 15000,
         },
         {
-            imageSrc: "pngegg (3).png",
-            name: "Snack Item 1",
-            price: 30,
-            id: 6
+            imageSrc: "burger.webp",
+            name: "Hamburger",
+            price: 5000,
         },
         {
-            imageSrc: "pngegg.png",
-            name: "Snack Item 1",
-            price: 10,
-            id: 4
+            imageSrc: "vietnam.webp",
+            name: "Viet Rolls",
+            price: 7300,
         },
         {
-            imageSrc: "Lovepik_com-401506378-spicy-hot-food.png",
-            name: "Snack Item 1",
-            price: 20,
-            id: 5
+            imageSrc: "croissant.webp",
+            name: "Croissants",
+            price: 3500,
         },
         {
-            imageSrc: "pngegg (3).png",
-            name: "Snack Item 1",
-            price: 30,
-            id: 6
+            imageSrc: "sandwich.webp",
+            name: "Sandwich",
+            price: 4300,
         },
         {
-            imageSrc: "pngegg.png",
-            name: "Snack Item 1",
-            price: 10,
-            id: 4
+            imageSrc: "hotdog.webp",
+            name: "Hot Dog",
+            price: 2500,
         },
         {
-            imageSrc: "Lovepik_com-401506378-spicy-hot-food.png",
-            name: "Snack Item 1",
-            price: 20,
-            id: 5
+            imageSrc: "kimbap.webp",
+            name: "Kimbap",
+            price: 4200,
         },
         {
-            imageSrc: "pngegg (3).png",
-            name: "Snack Item 1",
-            price: 30,
-            id: 6
+            imageSrc: "prawnburger.webp",
+            name: "Prawn Burger",
+            price: 4300,
         },
         // Add more items as needed
     ];
@@ -190,58 +162,49 @@ snack.addEventListener('click', () => {
 drink.addEventListener('click', () => {
     menuItems = [
         {
-            imageSrc: "pngegg.png",
-            name: "Drink Item 1",
-            price: 10,
-            id: 7
+            imageSrc: "drink1.png",
+            name: "Black Coffee",
+            price: 3500,
         },
         {
-            imageSrc: "Lovepik_com-401506378-spicy-hot-food.png",
-            name: "Drink Item 1",
-            price: 20,
-            id: 8
+            imageSrc: "drink2.png",
+            name: "Leamon Tea",
+            price: 3500,
         },
         {
-            imageSrc: "pngegg (3).png",
-            name: "Drink Item 1",
-            price: 30,
-            id: 9
+            imageSrc: "drink3.png",
+            name: "Strawkist",
+            price: 4500,
         },
         {
-            imageSrc: "pngegg.png",
-            name: "Drink Item 1",
-            price: 10,
-            id: 7
+            imageSrc: "mojito.png",
+            name: "Mojito",
+            price: 3000,
         },
         {
-            imageSrc: "Lovepik_com-401506378-spicy-hot-food.png",
-            name: "Drink Item 1",
-            price: 20,
-            id: 8
+            imageSrc: "whiskey.png",
+            name: "Whiskey",
+            price: 5300,
         },
         {
-            imageSrc: "pngegg (3).png",
-            name: "Drink Item 1",
-            price: 30,
-            id: 9
+            imageSrc: "pudding.png",
+            name: "Pudding",
+            price: 3000,
         },
         {
-            imageSrc: "pngegg.png",
-            name: "Drink Item 1",
-            price: 10,
-            id: 7
+            imageSrc: "oreo.png",
+            name: "Oreo Milkshake",
+            price: 3500,
         },
         {
-            imageSrc: "Lovepik_com-401506378-spicy-hot-food.png",
-            name: "Drink Item 1",
-            price: 20,
-            id: 8
+            imageSrc: "champagne.png",
+            name: "Champagne",
+            price: 55000,
         },
         {
-            imageSrc: "pngegg (3).png",
-            name: "Drink Item 1",
-            price: 30,
-            id: 9
+            imageSrc: "wine.png",
+            name: "Wine",
+            price: 70000,
         },
         // Add more items as needed
     ];
@@ -384,6 +347,17 @@ $(document).ready(function() {
     });
   });
 
+  $(document).ready(function() {
+    $('.close-mail').click(function() {
+        
+      $('.food-list').removeClass("active2");
+      $('.menu-name-nav').removeClass("active2");
+      $('.navbar').removeClass("active2");
+      $('.overlay-body').removeClass("active");
+      $(emailForm).addClass("active3");
+    });
+  });
+
   
 
 //   function retrieveItemDataFromList() {
@@ -512,3 +486,5 @@ function sendEmail() {
         `
     }).then(message => alert(message));
 };
+
+

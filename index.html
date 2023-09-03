@@ -17,7 +17,7 @@
 <script>
     document.addEventListener('DOMContentLoaded', () => {
       const images = ['Lovepik_com-401506378-spicy-hot-food.png', 'pngegg.png', 'pngegg (3).png'];
-      const names = ['IPSUM', 'HOTPOT', 'NOODLE'];
+      const names = ['MALA TANG', 'SPAGHETTI', 'NOODLE'];
       let currentImageIndex = 0;
       let currentNameIndex = 0;
   
@@ -57,8 +57,8 @@
                 <nav class="nav">
                     <a href="index.html" class="nav-item is-active" active-color="#F17400">Home</a>
                     <a href="menu.html" class="nav-item" active-color="#F17400">Menu</a>
-                    <a href="#" class="nav-item" active-color="#F17400">Services</a>
-                    <a href="#" class="nav-item" active-color="#F17400">About Us</a>
+                    <a href="review.html" class="nav-item" active-color="#F17400">Review</a>
+                    <a href="aboutus.html" class="nav-item" active-color="#F17400">About Us</a>
                     <span class="nav-indicator"></span>
                 </nav>
         </div>
@@ -79,7 +79,7 @@
         
                     </div>
                     <div class="index-photo-name">
-                        IPSUM
+                        MALA TANG
                     </div>
                     <div class="next-button">
                         <button class="next">
@@ -124,8 +124,8 @@ function handleIndicator(el) {
         item.classList.remove('is-active');
         item.removeAttribute('style');
     });
-    indicator.style.width = "".concat(el.offsetWidth, "px");
-    indicator.style.left = "".concat(el.offsetLeft, "px");
+    indicator.style.width = "".concat(el.offsetWidth+13, "px");
+    indicator.style.left = "".concat(el.offsetLeft+24, "px");
     indicator.style.backgroundColor = el.getAttribute('active-color');
     el.classList.add('is-active');
     el.style.color = el.getAttribute('active-color');
